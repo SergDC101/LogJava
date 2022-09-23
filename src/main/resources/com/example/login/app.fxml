@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController2">
+    <children>
+        <AnchorPane layoutY="110.0" prefHeight="290.0" prefWidth="700.0" style="-fx-background-color: #fafafafa;">
+            <children>
+                <Label layoutX="267.0" layoutY="37.0" text="Привет мир!" textFill="#a8a8a8">
+                    <font>
+                        <Font name="MV Boli" size="28.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="image_btn" fitHeight="150.0" fitWidth="200.0" layoutX="265.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/img.png" />
+               </image>
+            </ImageView>
+            </children></AnchorPane>
+        <Label layoutX="258.0" layoutY="6.0" text="MyApp" textFill="WHITE">
+            <font>
+                <Font name="MV Boli" size="56.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
