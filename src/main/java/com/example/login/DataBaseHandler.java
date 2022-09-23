@@ -47,6 +47,7 @@ public class DataBaseHandler extends Configs {
             throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
+
         }
 
     }
